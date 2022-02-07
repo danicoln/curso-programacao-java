@@ -1,0 +1,13 @@
+package br.com.bybank.banco.test;
+
+import br.com.bybank.banco.modelo.ContaCorrente;
+
+public class TesteArrayReferencias {
+
+	public static void main(String[] args) {
+		
+		//int [] idades = new int [5];
+		ContaCorrente[] contas = new ContaCorrente[5];
+		
+	}
+}

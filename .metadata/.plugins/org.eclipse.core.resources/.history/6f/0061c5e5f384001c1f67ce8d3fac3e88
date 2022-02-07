@@ -1,0 +1,8 @@
+package br.com.bybank.banco.test;
+
+public class TesteArrayReferencias {
+
+	public static void main(String[] args) {
+		
+	}
+}

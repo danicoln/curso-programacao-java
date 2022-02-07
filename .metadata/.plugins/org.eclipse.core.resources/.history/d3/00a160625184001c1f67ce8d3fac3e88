@@ -1,0 +1,11 @@
+package br.com.bybank.banco.test;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+		
+		String nome = "Alura";
+		//String outro = new String ("Alura");
+	}
+
+}

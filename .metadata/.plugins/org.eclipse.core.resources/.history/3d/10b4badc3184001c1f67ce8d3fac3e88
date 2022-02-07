@@ -1,0 +1,19 @@
+package br.com.bybank.banco.teste;
+
+public class TesteTributaveis {
+
+	public static void main(String[] args) {
+		br.com.bybank.banco.modelo.ContaCorrente cc = new br.com.bybank.banco.modelo.ContaCorrente (222, 333); // cria conta corrente;
+		cc.deposita(100.0);
+		
+		br.com.bybank.banco.modelo.SeguroDeVida seguro = new br.com.bybank.banco.modelo.SeguroDeVida(); // cria seguro de vida;
+		
+		br.com.bybank.banco.modelo.CalculadorDeImposto calc = new br.com.bybank.banco.modelo.CalculadorDeImposto(); // cria calculador de imposto;
+		calc.registra(cc); 
+		calc.registra(seguro);
+		
+		System.out.println(calc.getTotalImposto());
+
+	}
+
+}

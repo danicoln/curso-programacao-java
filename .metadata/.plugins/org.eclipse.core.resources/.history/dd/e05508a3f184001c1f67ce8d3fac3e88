@@ -1,0 +1,23 @@
+package br.com.bybank.banco.test;
+
+public class Teste {
+
+		// Array []
+	public static void main(String[] args) {
+	
+		int [] idades = new int [5]; //inicializa o array a partir de 0.
+		
+		idades[0] = 29;
+		
+		int idade1 = idades[0];
+		System.out.println(idade1);
+		
+		//int idade1 = 29;
+		//int idade2 = 39;
+		//int idade3 = 19;
+		//int idade4 = 69;
+		//int idade5 = 59;
+		
+	}
+
+}

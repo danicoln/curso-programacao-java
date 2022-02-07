@@ -1,0 +1,18 @@
+package br.com.bybank.banco.test;
+
+import br.com.bybank.banco.modelo.Conta;
+import br.com.bybank.banco.modelo.ContaCorrente;
+import br.com.bybank.banco.modelo.GuardadorDeContas;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		GuardadorDeContas guardador = GuardadorDeContas();
+		
+		Conta cc = new ContaCorrente(22, 11) {
+			
+	
+		guardador.adiciona (cc);
+		}
+	}

@@ -1,0 +1,5 @@
+package br.com.bybank.banco.modelo;
+
+public class GuardadorDeContas {
+
+}
